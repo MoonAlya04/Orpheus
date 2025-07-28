@@ -1,12 +1,9 @@
-import React from 'react'
 
-
-
-function Container({children}) {
+function Container({ children, style }) {
   return (
-    <div className='max-w-[1440px] m-auto '>
-        {children}
-    </div>
+    <div className={`max-w-[1440px] mx-auto ${style || ''}`}>
+    { children }
+    </div >
   )
 }
 

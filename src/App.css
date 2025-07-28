@@ -8,3 +8,26 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+
+
+
+.black-btn {
+  background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid transparent;
+  border-image-source: linear-gradient(158deg, #FFE195 -6.74%, rgba(242, 187, 90, 0.876812) 3.22%,
+      rgba(191, 122, 0, 0.75) 13.48%, rgba(191, 122, 0, 0) 49.53%,
+      rgba(15, 18, 24, 0) 49.53%);
+  border-image-slice: 1;
+}
+
+.text-gold {
+  background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-btn {
+  background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+}
