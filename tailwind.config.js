@@ -8,6 +8,7 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif'],
         cinzel: ['Cinzel', 'serif'],
       },
+      darkMode: 'class',
     },
   },
   plugins: [],

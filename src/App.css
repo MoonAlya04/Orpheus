@@ -3,7 +3,9 @@
 body {
   background-color: black;
 }
-
+.lightBg{
+  background-color: white;
+}
 nav {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
