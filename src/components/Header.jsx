@@ -17,8 +17,7 @@ function Header() {
                     <Link to="/">
                         <img src={theme === 'dark' ? '/darkLogo.png' : '/logo.png'} alt="Logo" className="h-[40px]" />
                     </Link>
-
-                    <nav className={`hidden lg:flex ml-auto text-white gap-[45px] text-[16px] ${headerColor}`}>
+                    <nav className={`hidden lg:flex ml-auto  gap-[45px] text-[16px] ${headerColor}`}>
                         <Link to="#">Works</Link>
                         <Link to="#">Contribution</Link>
                         <Link to="#">Community</Link>
