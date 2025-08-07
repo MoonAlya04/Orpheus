@@ -4,6 +4,8 @@ import Header from './components/Header';
 import MainSection from './components/MainSection';
 import { useTheme } from './context/ThemeContext';
 import CardsSection from './components/CardsSection';
+import Contribution from './components/Contribution';
+import Footer from './components/Footer';
 
 function App() {
   const { theme } = useTheme();
@@ -23,6 +25,8 @@ function App() {
       <Header />
       <MainSection img={theme === 'dark' ? '/main.png' : '/lightStatue.png'} />
       <CardsSection />
+      <Contribution />
+      <Footer />
     </div>
   );
 }

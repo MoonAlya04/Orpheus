@@ -1,7 +1,7 @@
 import { useTheme } from "../context/ThemeContext";
 
 function Cards({ image, title }) {
-    const { theme, toggleTheme } = useTheme();
+    const { theme } = useTheme();
     const textColor = theme === 'light' ? 'text-[#171717]' : 'text-white'
     const gradient = theme === 'light' ? "fade-right-light" : "fade-right-dark"
 
